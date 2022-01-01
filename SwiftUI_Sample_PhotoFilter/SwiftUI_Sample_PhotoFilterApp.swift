@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Sample_PhotoFilterApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ImageController())
         }
     }
 }
